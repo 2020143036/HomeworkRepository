@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+
+body {background-color: SteelBlue;
+      border: 100px;
+      margin: 150px;
+      padding: 10%;
+      color: lightblue;
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: lightblue;
+    text-align: center;
+    font-size:20pt;
+
+}
+
+p{
+    font-size:14pt;
+}
+
+
+button.login {
+    width: 75px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+button.dummy {
+    width: 75px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color : aquamarine;
+}
+
+
+button.submit {
+    width: 75px;
+    height : 25px;
+    background-color: #A41F1F;
+    padding: 5px;
+}
+
+button.reset {
+    width: 75px;
+    height: 25px;
+    background-color: #0101DF;
+    padding: 5px;
+}
+
+
+
+

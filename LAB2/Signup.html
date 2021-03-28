@@ -1,0 +1,57 @@
+<DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+    <body>
+        <h1>Welcome to INTERNET-PROGAMMING SHOP</h1>
+        <hr width="90%" color="white" />
+
+            <p>
+                <button class="login" type="button" onclick="location.href='login.html'">로그인</button>
+                <button class="dummy" type="button">회원가입</button>
+            </p>
+
+            <p>
+                <h3>개인정보(필수)</h3>
+            </p>
+
+            <p>
+                <label>이름: <input name = "이름" type = "text" placeholder="이름을 입력하세요." autocomplete="on" autofocus/> </label>
+            </p>
+
+            <p>
+                <label>생일: <input name = "date" type = "date" placeholder="연도-월-일"/> </label> 
+            </p>
+
+            <p>
+                <label>학년: <input name = "grade" type = "grade"/> </label> 
+            <p>
+                <label>전화번호: <input name = "tel" type= "tel" placeholder = "(###) ###-####"
+                        pattern = "\(\d{3}\) +\d{3}-\d{4}" required />
+                </label>
+            </p>   
+            
+            <p>
+                <label>유저 아이디:<input name = "ID" type = "ID" placeholder= "아이디를 입력하세요" required autocomplete="on"/> </label> 
+            </p>
+
+            <p>
+                <label>비밀번호:<input name="psw" type="password" placeholder="비밀번호를 입력하세요"  required autocomplete="off"/> </label>
+            </p>
+
+            <p>
+                <label>비밀번호 확인:<input name="psw-repeat" type="password" placeholder="비밀번호를 다시 입력하세요"  required autocomplete="off"/><label></label>
+            </p>
+
+            <p>
+                <button class="submit"> sign up</button>
+                <button class="reset"> cancel </button>
+            </p>
+        <hr width="90%" color="white" />
+        </from>
+    </body>
+</html>
