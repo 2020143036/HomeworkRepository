@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+
+body {background-color: SteelBlue;
+      border: 100px;
+      margin: 150px;
+      padding: 10%;
+      color: lightblue;
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: lightblue;
+    font-size:20pt;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.box1 {
+    margin: auto;
+    width: 1020px;
+    border: 2px solid white;
+}
+
+.box2 {
+    margin: auto;
+    margin-top: 1%;
+    width: 1020px;
+    border: 2px solid white;
+}
+
+.box3 {
+    margin: auto;
+    margin-top: 1%;
+    width: 1020px;
+    height: 500px;
+    border: 2px solid white;
+}
+.box4 {
+    display: inline-block;
+    width: 400px;
+    height:300px;
+    float: left;
+    border: 1px solid white;
+    margin-left: 5%;
+
+}
+
+.box5 {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    float:left;
+    border: 1px solid white;
+    margin-left: 2%;
+}
+
+.image1 {
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.image2 {
+    transition-property: all;
+    transition-duration: 2s;
+}
+.image1:hover {
+    width: 400px;
+    height: 300px;
+}
+
+.image2:hover {
+    width: 400px;
+    height: 300px;
+}
+
+
+p{
+    font-size:14pt;
+}
+
+.box6 {
+    margin:auto;
+    margin-top: 1%;
+    width:1020px;
+    height:300px;
+    border:2px solid white;
+    column-count:3;
+    column-gap:20px;
+    column-width:30px;
+    column-rule-style: dotted;
+    column-rule-color: white;
+    column-rule-width: 5px;
+}
+
+button.login {
+    width: 75px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 2%;
+}
+
+button.dummy {
+    width: 75px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color : aquamarine;
+}
+
+
+button.submit {
+    width: 75px;
+    height : 25px;
+    background-color: #A41F1F;
+    padding: 5px;
+}
+
+button.reset {
+    width: 75px;
+    height: 25px;
+    background-color: #0101DF;
+    padding: 5px;
+}
+
+
+
+
