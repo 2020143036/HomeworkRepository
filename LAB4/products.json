@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Zero coke",
+        "price": 2500,
+        "image": "zerocoke.jpg",
+        "type": "zero sugar"
+    },
+    {
+        "name": "pepsi zero",
+        "price": 1800,
+        "image": "pepsizero.jpg",
+        "type": "zero sugar"
+    },
+    {
+        "name": "sprite",
+        "price": 2300,
+        "image": "sprite.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "mountain dew",
+        "price": 2000,
+        "image": "mountaindew.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "fanta",
+        "price": 2000,
+        "image": "fanta.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "welches",
+        "price": 1200,
+        "image": "welches.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "cider",
+        "price": 800,
+        "image": "cider.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "tropicana",
+        "price": 1500,
+        "image": "tropicana.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "zero cider",
+        "price": 1200,
+        "image": "zerocider.jpg",
+        "type": "zero sugar"
+    },
+    {
+        "name": "monster",
+        "price": 2200,
+        "image": "monster.jpg",
+        "type": "sugar included"
+    },
+    {
+        "name": "monsterzero",
+        "price": 2200,
+        "image": "monsterzero.jpg",
+        "type": "zero sugar"
+    },
+    {
+        "name": "doctorpepper",
+        "price": 1500,
+        "image": "doctorpepper.jpg",
+        "type": "sugar included"
+    }
+]
